@@ -1,0 +1,102 @@
+.footer {
+    background-color: #FFC567;
+    padding: 80px 0;
+    div {
+
+        .footer-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;        
+            .footer-links {
+                h4 {
+                    font-size: 20px;
+                    font-weight: 700;
+                    margin-bottom: 25px;
+                    border-bottom: 2px solid black;
+                    padding-bottom: 10px;
+                    display: inline-block;
+                }
+                ul {
+                    li{
+                        list-style: none;
+                        a{
+                            font-size: 18px;
+                            text-decoration: none;
+                            display: block;
+                            margin-bottom: 15px;
+                            transition: all .3s ease;
+                            color: black;
+                        }
+                    }
+                }
+            }
+
+            .footer-links {
+                max-width: 25%;
+                h4{
+                    font-size: 20px;
+                    font-weight: 700;
+                    margin-bottom: 25px;
+                    border-bottom: 2px solid black;
+                    padding-bottom: 10px;
+                    display: inline-block;
+                }
+                .medios-pago {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    li{
+                        list-style: none;
+                        img{
+                            height: 30px;
+                            width: 30px;
+                        }
+                    }
+                }
+            }
+
+            .footer-links {
+
+                h4{
+                    font-size: 20px;
+                    font-weight: 700;
+                    margin-bottom: 25px;
+                    border-bottom: 2px solid black;
+                    padding-bottom: 10px;
+                    display: inline-block;
+                }
+                .redes-sociales{
+                    display: flex;
+                    li{
+                        a{
+                            font-size: 18px;
+                            text-decoration: none;
+                            display: block;
+                            margin-bottom: 15px;
+                            transition: all .3s ease;
+                            color: black;
+                            img{
+                                height: 30px;
+                                width: 30px;
+                            }
+                        }
+                    }
+                    li{
+                        a{
+                            font-size: 18px;
+                            text-decoration: none;
+                            display: block;
+                            margin-bottom: 15px;
+                            transition: all .3s ease;
+                            color: black;
+                            img{
+                                height: 30px;
+                                width: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

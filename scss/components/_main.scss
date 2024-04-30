@@ -1,0 +1,243 @@
+/** BODY INDEX */
+
+/** NEWS SECTION */
+
+section{
+
+    .new {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFC567;
+        img {
+            height: 45%;
+            width: 45%;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            h3 {
+                font-size: 40px;
+                font-weight: 800;
+            }
+            h4 {
+                font-size: 35px;
+                font-weight: 700;
+            }
+            h5 {
+                font-size: 30px;
+                font-weight: 700;
+            }
+
+        }
+    }
+}
+
+/** COMIENZO DE MENU */
+
+.menu {
+
+    h2 {
+        margin-bottom: 30px;
+    }
+
+    div {
+        .carousel-inner {
+            padding: 1em;
+
+            div {
+                .card {
+                    margin: 0 .5em;
+                    .img-wrapper {
+                        max-width: 100%;
+                        height: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-start;
+                        img {
+                            max-width: 100%;
+                            max-height: 100%;
+                        }
+                    }
+                    div {
+                        .btn-primary {
+                            background-color: #00995E;
+                            border-color: #00995E;
+                            font-weight: 800;
+                            &:hover {
+                                background-color: white;
+                                color: #00995E;
+                                border: 2px solid #00995E;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .carousel-control-prev {
+            background-color: grey;
+            color: grey;
+        }
+        .carousel-control-next {
+            background-color: grey;
+            color: grey;
+        }
+    }
+
+    .boton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+        padding-top: 20px;
+        .btn-primary {
+            background-color: #00995E;
+            border-color: #00995E;
+            font-weight: 800;
+            &:hover {
+                background-color: white;
+                color: #00995E;
+                border: 2px solid #00995E;
+            }
+        }
+    }
+}
+
+/** PAGINA TIENDA*/
+
+section {
+
+    h2 {
+        font-size: 30px;
+        font-weight: 850;
+        margin-left: 50px; 
+        margin-top: 3%;
+        margin-bottom: 5%;
+        color: #00995E;
+    }
+
+    .indumentaria {
+        display: flex;
+        justify-content: space-around;
+        padding: 5%;
+        flex-wrap: wrap;
+        .card {
+            margin-top: 30px;
+            img{
+                max-width: 100%;
+                max-height: 100%;
+            }
+            div {
+                text-align: center;
+                align-items: center;
+                .btn-primary {
+                    background-color: #00995E;
+                    border-color: #00995E;
+                    font-weight: 800;
+                    &:hover {
+                        background-color: white;
+                        color: #00995E;
+                        border: 2px solid #00995E;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/** PAGINA CONTACTO*/
+
+section {
+
+    .contacto-row {
+
+        div {
+            padding-left: 7%;
+            h2 {
+                margin-bottom: 20px;
+                margin-left: -20px;
+            }
+            ul {
+                margin-left: 10px;
+            }
+        }
+
+        .registrate {
+            padding-bottom: 5%;
+            h2{
+                margin-bottom: 20px;
+                margin-left: -20px;
+            }
+            label {
+                display: flex;
+                flex-direction: column;
+                margin-top: 5px;
+            }
+        }
+    }
+}
+
+/** PAGINA NOSOTROS*/
+
+section {
+
+    h2{
+        margin-bottom: 20px;
+    }
+
+    .nuestra-historia {
+
+        div {
+            display: flex;
+            align-items: center;
+            img{
+                height: 50%;
+                width: 50%;
+            }
+    
+            p{
+                font-size: 90%;
+                max-width: 50%;
+                padding: 5%;
+            }
+        }
+    }
+}
+
+/** PAGINA MENU*/
+
+.grid-container {
+    font-size: 37px;
+    font-weight: 850;
+    margin-left: 10%; 
+    margin-top: 3%;
+    margin-bottom: 5%;
+    color: #00995E;
+    
+    .grid {
+        display: grid;
+        grid-auto-rows: 450px;
+        grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+        gap: 30px;
+        padding-bottom: 5%;
+        .card {
+            text-align: center;
+            align-items: center;
+        }
+        .card-body {
+            color: black;
+            font-size: 25px;
+            .btn-primary {
+                background-color: #00995E;
+                border-color: #00995E;
+                font-weight: 800;
+                &:hover {
+                    background-color: white;
+                    color: #00995E;
+                    border: 2px solid #00995E;
+                }
+            }
+        }
+    }
+}
